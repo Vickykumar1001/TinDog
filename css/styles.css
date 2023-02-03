@@ -1,0 +1,146 @@
+/* BODY */
+.body {
+  font-family: "Monsterrate";
+  text-align: center;
+}
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Montserrat-Bold";
+}
+p {
+  color: #8f8f8f;
+}
+#title {
+  background-color: #ff4c68;
+}
+.title-img {
+  width: 60%;
+  transform: rotate(25deg);
+  position: absolute;
+  right: 30%;
+}
+.container-fluid {
+  padding: 3% 15% 8%;
+}
+/* NAVIGATION BAR */
+.navbar-brand {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  font-size: 2.5rem;
+}
+.navbar {
+  padding-bottom: 0 0 0 4.5rem;
+}
+.nav-item {
+  padding-right: 0 18px;
+}
+.nav-link {
+  font-size: 1.2rem;
+  font-family: "Montserrat-Light";
+}
+.dwn-btn {
+  margin: 5% 5% 5% 0;
+}
+/* HEADINGS */
+h1 {
+  font-family: "Montserrat";
+  font-size: 3.5rem;
+  line-height: 1.5;
+  color: white;
+}
+h3 {
+  font-family: "Montserrat";
+  font-size: 1.5rem;
+  line-height: 1.5;
+}
+/* FEATURES */
+#features {
+  text-align: center;
+  padding: 6% 15%;
+  font-family: Monsterrate;
+  font-weight: bold;
+  line-height: 2;
+  background-color: #ffff;
+  position: relative;
+}
+.icon {
+  color: #ef8172;
+  padding-bottom: 5%;
+}
+.icon:hover {
+  color: #ff4c68;
+}
+/* TESTIMONIALS */
+#testimonials {
+  background-color: #ef8172;
+  padding: 4% 15%;
+  text-align: center;
+  color: #ffff;
+}
+.dog-img {
+  width: 15%;
+  border-radius: 100%;
+  margin-top: 5%;
+}
+.lady-image {
+  width: 15%;
+  border-radius: 100%;
+}
+.carousel-item {
+  padding: 7% 15%;
+}
+/* PRESS */
+#press {
+  background-color: #ef8172;
+  padding-bottom: 4%;
+  text-align: center;
+}
+.press-logo {
+  width: 200px;
+  padding: 20px 20px 40px;
+}
+/* PRICING */
+.price-head {
+  text-align: center;
+  font-weight: bold;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  padding: 7%;
+}
+.phead {
+  color: black;
+}
+#pricing {
+  padding: 7%;
+}
+.card-deck {
+  display: block;
+}
+.price {
+  color: rgb(135, 86, 86);
+  font-weight: lighter;
+}
+/* CTA */
+#cta {
+  background-color: #ff4c68;
+  text-align: center;
+  padding: 7%;
+}
+.cta-head {
+  color: #ffff;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+/* FOOTER */
+#footer {
+  padding: 7% 15% 3%;
+  text-align: center;
+}
+/* MEDIA QUERY */
+@media (max-width: 1028px){
+  .title-img{
+    position: static;
+    transform: rotate(0);
+  }
+  #title{
+    text-align: center;
+  }
+}
